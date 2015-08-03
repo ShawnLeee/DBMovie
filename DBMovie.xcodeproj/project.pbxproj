@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65D2572F1B6F32C7004D6C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2572E1B6F32C7004D6C01 /* main.m */; };
-		65D257321B6F32C8004D6C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D257311B6F32C8004D6C01 /* AppDelegate.m */; };
-		65D257351B6F32C8004D6C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D257341B6F32C8004D6C01 /* ViewController.m */; };
-		65D257381B6F32C8004D6C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D257361B6F32C8004D6C01 /* Main.storyboard */; };
-		65D2573A1B6F32C8004D6C01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D257391B6F32C8004D6C01 /* Images.xcassets */; };
-		65D2573D1B6F32C8004D6C01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D2573B1B6F32C8004D6C01 /* LaunchScreen.xib */; };
 		65D257491B6F32C8004D6C01 /* DBMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D257481B6F32C8004D6C01 /* DBMovieTests.m */; };
+		65D2576C1B6F335A004D6C01 /* TopMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D257541B6F335A004D6C01 /* TopMovieViewController.m */; };
+		65D2576E1B6F335A004D6C01 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D257591B6F335A004D6C01 /* ArrayDataSource.m */; };
+		65D2576F1B6F335A004D6C01 /* DBMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2575B1B6F335A004D6C01 /* DBMovie.m */; };
+		65D257701B6F335A004D6C01 /* DBMovieAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2575D1B6F335A004D6C01 /* DBMovieAvatar.m */; };
+		65D257711B6F335A004D6C01 /* DBMovieCast.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2575F1B6F335A004D6C01 /* DBMovieCast.m */; };
+		65D257721B6F335A004D6C01 /* DBMovieDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D257611B6F335A004D6C01 /* DBMovieDirector.m */; };
+		65D257731B6F335A004D6C01 /* DBMovieImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D257631B6F335A004D6C01 /* DBMovieImage.m */; };
+		65D257741B6F335A004D6C01 /* DBMovieRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D257651B6F335A004D6C01 /* DBMovieRating.m */; };
+		65D257751B6F335A004D6C01 /* DBMovieViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D257671B6F335A004D6C01 /* DBMovieViewModel.m */; };
+		65D257761B6F335A004D6C01 /* DBMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2576A1B6F335A004D6C01 /* DBMovieCell.m */; };
+		65D257771B6F335A004D6C01 /* DBMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D2576B1B6F335A004D6C01 /* DBMovieCell.xib */; };
+		65D2577A1B6F3383004D6C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D257791B6F3383004D6C01 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +34,32 @@
 
 /* Begin PBXFileReference section */
 		65D257291B6F32C7004D6C01 /* DBMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D2572D1B6F32C7004D6C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65D2572E1B6F32C7004D6C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		65D257301B6F32C7004D6C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		65D257311B6F32C8004D6C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65D257331B6F32C8004D6C01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65D257341B6F32C8004D6C01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		65D257371B6F32C8004D6C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65D257391B6F32C8004D6C01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		65D2573C1B6F32C8004D6C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		65D257421B6F32C8004D6C01 /* DBMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D257471B6F32C8004D6C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D257481B6F32C8004D6C01 /* DBMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBMovieTests.m; sourceTree = "<group>"; };
+		65D257531B6F335A004D6C01 /* TopMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMovieViewController.h; sourceTree = "<group>"; };
+		65D257541B6F335A004D6C01 /* TopMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMovieViewController.m; sourceTree = "<group>"; };
+		65D257581B6F335A004D6C01 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		65D257591B6F335A004D6C01 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		65D2575A1B6F335A004D6C01 /* DBMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMovie.h; sourceTree = "<group>"; };
+		65D2575B1B6F335A004D6C01 /* DBMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMovie.m; sourceTree = "<group>"; };
+		65D2575C1B6F335A004D6C01 /* DBMovieAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMovieAvatar.h; sourceTree = "<group>"; };
+		65D2575D1B6F335A004D6C01 /* DBMovieAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMovieAvatar.m; sourceTree = "<group>"; };
+		65D2575E1B6F335A004D6C01 /* DBMovieCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMovieCast.h; sourceTree = "<group>"; };
+		65D2575F1B6F335A004D6C01 /* DBMovieCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMovieCast.m; sourceTree = "<group>"; };
+		65D257601B6F335A004D6C01 /* DBMovieDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMovieDirector.h; sourceTree = "<group>"; };
+		65D257611B6F335A004D6C01 /* DBMovieDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMovieDirector.m; sourceTree = "<group>"; };
+		65D257621B6F335A004D6C01 /* DBMovieImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMovieImage.h; sourceTree = "<group>"; };
+		65D257631B6F335A004D6C01 /* DBMovieImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMovieImage.m; sourceTree = "<group>"; };
+		65D257641B6F335A004D6C01 /* DBMovieRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMovieRating.h; sourceTree = "<group>"; };
+		65D257651B6F335A004D6C01 /* DBMovieRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMovieRating.m; sourceTree = "<group>"; };
+		65D257661B6F335A004D6C01 /* DBMovieViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMovieViewModel.h; sourceTree = "<group>"; };
+		65D257671B6F335A004D6C01 /* DBMovieViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMovieViewModel.m; sourceTree = "<group>"; };
+		65D257691B6F335A004D6C01 /* DBMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMovieCell.h; sourceTree = "<group>"; };
+		65D2576A1B6F335A004D6C01 /* DBMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMovieCell.m; sourceTree = "<group>"; };
+		65D2576B1B6F335A004D6C01 /* DBMovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBMovieCell.xib; sourceTree = "<group>"; };
+		65D257781B6F3383004D6C01 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65D257791B6F3383004D6C01 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,25 +101,11 @@
 		65D2572B1B6F32C7004D6C01 /* DBMovie */ = {
 			isa = PBXGroup;
 			children = (
-				65D257301B6F32C7004D6C01 /* AppDelegate.h */,
-				65D257311B6F32C8004D6C01 /* AppDelegate.m */,
-				65D257331B6F32C8004D6C01 /* ViewController.h */,
-				65D257341B6F32C8004D6C01 /* ViewController.m */,
-				65D257361B6F32C8004D6C01 /* Main.storyboard */,
-				65D257391B6F32C8004D6C01 /* Images.xcassets */,
-				65D2573B1B6F32C8004D6C01 /* LaunchScreen.xib */,
-				65D2572C1B6F32C7004D6C01 /* Supporting Files */,
+				65D257521B6F335A004D6C01 /* Controller */,
+				65D257571B6F335A004D6C01 /* Model */,
+				65D257681B6F335A004D6C01 /* View */,
 			);
 			path = DBMovie;
-			sourceTree = "<group>";
-		};
-		65D2572C1B6F32C7004D6C01 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				65D2572D1B6F32C7004D6C01 /* Info.plist */,
-				65D2572E1B6F32C7004D6C01 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		65D257451B6F32C8004D6C01 /* DBMovieTests */ = {
@@ -117,6 +123,50 @@
 				65D257471B6F32C8004D6C01 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65D257521B6F335A004D6C01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65D257531B6F335A004D6C01 /* TopMovieViewController.h */,
+				65D257541B6F335A004D6C01 /* TopMovieViewController.m */,
+				65D257781B6F3383004D6C01 /* ViewController.h */,
+				65D257791B6F3383004D6C01 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65D257571B6F335A004D6C01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65D257581B6F335A004D6C01 /* ArrayDataSource.h */,
+				65D257591B6F335A004D6C01 /* ArrayDataSource.m */,
+				65D2575A1B6F335A004D6C01 /* DBMovie.h */,
+				65D2575B1B6F335A004D6C01 /* DBMovie.m */,
+				65D2575C1B6F335A004D6C01 /* DBMovieAvatar.h */,
+				65D2575D1B6F335A004D6C01 /* DBMovieAvatar.m */,
+				65D2575E1B6F335A004D6C01 /* DBMovieCast.h */,
+				65D2575F1B6F335A004D6C01 /* DBMovieCast.m */,
+				65D257601B6F335A004D6C01 /* DBMovieDirector.h */,
+				65D257611B6F335A004D6C01 /* DBMovieDirector.m */,
+				65D257621B6F335A004D6C01 /* DBMovieImage.h */,
+				65D257631B6F335A004D6C01 /* DBMovieImage.m */,
+				65D257641B6F335A004D6C01 /* DBMovieRating.h */,
+				65D257651B6F335A004D6C01 /* DBMovieRating.m */,
+				65D257661B6F335A004D6C01 /* DBMovieViewModel.h */,
+				65D257671B6F335A004D6C01 /* DBMovieViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65D257681B6F335A004D6C01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65D257691B6F335A004D6C01 /* DBMovieCell.h */,
+				65D2576A1B6F335A004D6C01 /* DBMovieCell.m */,
+				65D2576B1B6F335A004D6C01 /* DBMovieCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D257381B6F32C8004D6C01 /* Main.storyboard in Resources */,
-				65D2573D1B6F32C8004D6C01 /* LaunchScreen.xib in Resources */,
-				65D2573A1B6F32C8004D6C01 /* Images.xcassets in Resources */,
+				65D257771B6F335A004D6C01 /* DBMovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +267,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D257351B6F32C8004D6C01 /* ViewController.m in Sources */,
-				65D257321B6F32C8004D6C01 /* AppDelegate.m in Sources */,
-				65D2572F1B6F32C7004D6C01 /* main.m in Sources */,
+				65D257741B6F335A004D6C01 /* DBMovieRating.m in Sources */,
+				65D257731B6F335A004D6C01 /* DBMovieImage.m in Sources */,
+				65D257701B6F335A004D6C01 /* DBMovieAvatar.m in Sources */,
+				65D257751B6F335A004D6C01 /* DBMovieViewModel.m in Sources */,
+				65D257761B6F335A004D6C01 /* DBMovieCell.m in Sources */,
+				65D2577A1B6F3383004D6C01 /* ViewController.m in Sources */,
+				65D257711B6F335A004D6C01 /* DBMovieCast.m in Sources */,
+				65D2576F1B6F335A004D6C01 /* DBMovie.m in Sources */,
+				65D2576E1B6F335A004D6C01 /* ArrayDataSource.m in Sources */,
+				65D257721B6F335A004D6C01 /* DBMovieDirector.m in Sources */,
+				65D2576C1B6F335A004D6C01 /* TopMovieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +298,6 @@
 			targetProxy = 65D257431B6F32C8004D6C01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		65D257361B6F32C8004D6C01 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65D257371B6F32C8004D6C01 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		65D2573B1B6F32C8004D6C01 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65D2573C1B6F32C8004D6C01 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		65D2574A1B6F32C8004D6C01 /* Debug */ = {
